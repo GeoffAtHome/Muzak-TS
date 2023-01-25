@@ -4,9 +4,9 @@
   "description": "Alexa Squeezebox player",
   "main": "index.js",
   "scripts": {
-    "clean": "rimraf build",
+    "clean": "rimraf lambda",
     "compile": "tsc --build tsconfig.json --pretty",
-    "build-final": "cpy package.json build && cd build/ && npm install --production",
+    "build-final": "cpy package.json lambda && cd lambda/ && npm install --production",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "npx nodemon"
   },

@@ -1,6 +1,6 @@
 # Muzak-TS
 
-This is a rewrite in Typescript, , hopefully with improvements, of the Muzak Squeezebox Skill.
+This is a rewrite in Typescript, hopefully with improvements, of the Muzak Squeezebox Skill.
 
 This is currently work in progress to get the basic build/test/deploy working. After that works will undertaking completing the necessary work.
 

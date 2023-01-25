@@ -1,6 +1,8 @@
 ask-resources.json
 .ask
 .vscode
-lambda/node_modules
+node_modules
+lambda
 .skill-package-backup
 ask-resources.json
+
