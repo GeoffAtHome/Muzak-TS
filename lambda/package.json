@@ -1,0 +1,30 @@
+{
+  "name": "MuzakTS",
+  "version": "1.0.0",
+  "description": "Alexa Squeezebox player",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf build",
+    "compile": "tsc --build tsconfig.json --pretty",
+    "build-final": "cpy package.json build && cd build/ && npm install --production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "npx nodemon"
+  },
+  "author": "Amazon Alexa",
+  "license": "Apache License",
+  "dependencies": {
+    "ask-sdk-core": "^2.7.0",
+    "ask-sdk-local-debug": "^1.1.0",
+    "ask-sdk-model": "^1.19.0",
+    "aws-sdk": "^2.326.0",
+    "i18next": "^22.4.9",
+    "i18next-sprintf-postprocessor": "^0.2.2"
+  },
+  "devDependencies": {
+    "ask-sdk-local-debug": "^1.1.0",
+    "cpy-cli": "^3.1.0",
+    "nodemon": "^2.0.20",
+    "rimraf": "^3.0.0",
+    "typescript": "^4.9.4"
+  }
+}
