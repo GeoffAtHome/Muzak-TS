@@ -1,5 +1,5 @@
 {
-  "name": "MuzakTS",
+  "name": "muzak-ts",
   "version": "1.0.0",
   "description": "Alexa Squeezebox player",
   "main": "index.js",
