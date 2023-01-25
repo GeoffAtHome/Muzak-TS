@@ -1,4 +1,4 @@
-import { Strings, LocaleTypes } from './constants';
+import { Strings, LocaleTypes } from "./constants";
 
 interface IStrings {
   [Strings.SKILL_NAME]: string;
@@ -14,15 +14,27 @@ interface IStrings {
 export const strings = {
   [LocaleTypes.esES]: {
     translation: {
-      SKILL_NAME: 'Hello world',
-      WELCOME_MSG: 'Bienvenido, puedes decir Hola o Ayuda. Cual prefieres?',
-      HELLO_MSG: 'Hola Mundo!',
-      HELP_MSG: 'Puedes decirme hola. Cómo te puedo ayudar?',
-      GOODBYE_MSG: 'Hasta luego!',
-      REFLECTOR_MSG: 'Acabas de activar {{intentName}}',
+      SKILL_NAME: "Hello world",
+      WELCOME_MSG: "Bienvenido, puedes decir Hola o Ayuda. Cual prefieres?",
+      HELLO_MSG: "Hola Mundo!",
+      HELP_MSG: "Puedes decirme hola. Cómo te puedo ayudar?",
+      GOODBYE_MSG: "Hasta luego!",
+      REFLECTOR_MSG: "Acabas de activar {{intentName}}",
       FALLBACK_MSG:
-        'Lo siento, no se nada sobre eso. Por favor inténtalo otra vez.',
-      ERROR_MSG: 'Lo siento, ha habido un error. Por favor inténtalo otra vez.',
+        "Lo siento, no se nada sobre eso. Por favor inténtalo otra vez.",
+      ERROR_MSG: "Lo siento, ha habido un error. Por favor inténtalo otra vez.",
+    } as IStrings,
+  },
+  [LocaleTypes.enGB]: {
+    translation: {
+      SKILL_NAME: "Hello world",
+      WELCOME_MSG: "Welcome",
+      HELLO_MSG: "Hello!",
+      HELP_MSG: "Do you need some help?",
+      GOODBYE_MSG: "Goodbye!",
+      REFLECTOR_MSG: "Reflector {{intentName}}",
+      FALLBACK_MSG: "Fallback message.",
+      ERROR_MSG: "Something has gone wrong - sorry.",
     } as IStrings,
   },
 };
