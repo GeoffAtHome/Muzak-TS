@@ -34,7 +34,7 @@ export const strings = {
       GOODBYE_MSG: "Goodbye!",
       REFLECTOR_MSG: "Reflector {{intentName}}",
       FALLBACK_MSG: "Fallback message.",
-      ERROR_MSG: "Something has gone wrong - sorry.",
+      ERROR_MSG: "Sorry but something has gone wrong.",
     } as IStrings,
   },
 };
